@@ -27,7 +27,7 @@
 		AB2FDC5C2240962600F510F1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2FDC5B2240962600F510F1 /* libiconv.tbd */; };
 		AB2FDC5E2240963500F510F1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2FDC5D2240963500F510F1 /* libbz2.tbd */; };
 		AB2FDC602240963D00F510F1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2FDC5F2240963D00F510F1 /* libz.tbd */; };
-		AB2FDC6D224105CF00F510F1 /* douyin.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = AB2FDC6C224105CF00F510F1 /* douyin.MP4 */; };
+		AB2FDC6F2241078E00F510F1 /* vue.MOV in Resources */ = {isa = PBXBuildFile; fileRef = AB2FDC6E2241078E00F510F1 /* vue.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,7 +169,7 @@
 		AB2FDC5B2240962600F510F1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		AB2FDC5D2240963500F510F1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		AB2FDC5F2240963D00F510F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		AB2FDC6C224105CF00F510F1 /* douyin.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = douyin.MP4; sourceTree = "<group>"; };
+		AB2FDC6E2241078E00F510F1 /* vue.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vue.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,7 +211,7 @@
 		AB2DC85E223FAD0600D56213 = {
 			isa = PBXGroup;
 			children = (
-				AB2FDC6C224105CF00F510F1 /* douyin.MP4 */,
+				AB2FDC6E2241078E00F510F1 /* vue.MOV */,
 				AB2FDBE4224094CD00F510F1 /* FFmpeg-iOS */,
 				AB2DC869223FAD0600D56213 /* MTFFmpegPlayer */,
 				AB2DC868223FAD0600D56213 /* Products */,
@@ -544,7 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2DC877223FAD0700D56213 /* LaunchScreen.storyboard in Resources */,
-				AB2FDC6D224105CF00F510F1 /* douyin.MP4 in Resources */,
+				AB2FDC6F2241078E00F510F1 /* vue.MOV in Resources */,
 				AB2DC874223FAD0700D56213 /* Assets.xcassets in Resources */,
 				AB2DC872223FAD0600D56213 /* Main.storyboard in Resources */,
 			);

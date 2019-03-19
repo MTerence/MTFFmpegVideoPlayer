@@ -52,7 +52,7 @@
 
 //初始化文件和解码器
 - (void)start{
-    _mediaPath = [[NSBundle mainBundle] pathForResource:@"douyin" ofType:@"MP4"];
+    _mediaPath = [[NSBundle mainBundle] pathForResource:@"vue" ofType:@"MOV"];
     __weak MTViewController *weakSelf = self;
     
     MTDecoder* decoder = [[MTDecoder alloc]init];
