@@ -101,12 +101,14 @@ static void FFLog(void* context, int level, const char* format, va_list args) {
     return _videoFrameFormat == format;
 }
 
+#pragma mark - 解码
 - (NSArray *)decodeFrames:(CGFloat)minDuration{
     if (_videoStream == -1) {
         return nil;
     }
     
     NSMutableArray * result = [NSMutableArray array];
+    //编码后的数据，即需要用来解码的数据
     AVPacket packet;
     CGFloat decodedDuration = 0;
     BOOL finished = NO;
